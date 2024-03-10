@@ -1,3 +1,4 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,3 +32,199 @@ body {
     text-wrap: balance;
   }
 }
+*/
+/*VARIAVEIS DE CORES*/
+:root{
+  --color-bg-top: #000;
+  --color-bg-body: #333;
+  --color-letra: #fff;
+  --color-red: #c1071e;
+  --bg-cards-movies: #564d4d;
+  ;
+}
+
+/*CONFIGURAÇÃO GERAL*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: var(--color-bg-body);
+  color: var(--color-letra);
+  font-family: sans-serif;
+}
+header{
+  background-color: var(--color-bg-top);
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+p{
+  letter-spacing: 1.5px;
+}
+
+.title{
+  text-align: center;
+}
+
+/*CONFIGURAÇÃO HEADER*/
+.netflix{
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: var(--color-red);
+}
+.navgation{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.link{
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--color-letra);
+
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+.link:hover{
+  color: var(--color-red);
+}
+/*CONFIGURAÇÃO CORPO*/
+.principal{
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/*CONFIGURAÇÃO DA HOME*/
+.title_home{
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*CONFIGURAÇÃO FILMES*/
+.conteiner_movie{
+  margin-top: 25px;
+}
+.card{
+  background-color: var(--bg-cards-movies);
+  cursor: pointer;
+
+  padding: 10px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/*CONFIGURAÇÃO DETALHES FILME*/
+.detail{
+  background-color: var(--bg-cards-movies);
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.centraliza{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.info{
+  margin-top: 25px;
+  width: 80%;
+
+  background-color: var(--color-bg-body);
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.conteiner_extra{
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.extra{
+  display: flex;
+  flex-flow: row;
+}
+.sinopse{
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: var(--color-bg-top);
+  margin-top: 25px;
+  width: 70%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+
+/*CONFIGURAÇÃO PESQUISA*/
+.conteiner_pesquisa {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.entrada{
+  text-align: center;
+  width: 400px;
+  height: 30px;
+  border: solid black 1px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.btn{
+  cursor: pointer;
+  margin-top: 25px;
+
+  width: 200px;
+  height: 40px;
+
+  border: solid black 1px;
+  background-color: var(--color-red);
+  color: var(--color-letra);
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+.btn:hover{
+  background-color:var(--color-letra);
+  color: var(--color-red);
+}
+
