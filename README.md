@@ -36,3 +36,6 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ##SOBRE O PROJETO:
+*BASE DA APLICAÇÃO: usou as importações do next junto com a blibioteca super
+
+*PAGINAÇÃO: as pastas Pages (search e movies) são as páginas principais, a movie é a página de detalhes do filme.
